@@ -1,0 +1,1020 @@
+﻿/**Virtual Class **/
+/*CA*/
+/* badge image position needed adjustment. 
+.jumbotron .container {position:static;} can not be changed to {position:static;}.
+*/
+/*---------------------
+ home 2020-07
+-----------*/
+/* @media (min-width: 768px) {
+  
+body.home.ca .hero-container 
+{
+    width:760px;
+    padding-right:0;
+    padding-left:0;} 
+}
+   @media (min-width: 992px) {
+   body.home.ca .hero-container {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+   body.home.ca .hero-container,
+   body.home.ca .image-container {
+      width: 1170px;
+      position:relative; } }*/
+
+
+/*body.home.us-en {
+  padding-top: 92px; }
+  @media (min-width: 768px) {
+    body.home.us-en {
+      padding-top: 0;
+      margin-top: 100px; } }
+  @media (min-width: 992px) {
+    body.home.us-en {
+      margin-top: 188px; } }
+  @media (min-width: 1200px) {
+    body.home.us-en {
+      margin-top: 156px; } }
+ */     
+ @media (min-width: 768px) {
+    body.home.us-en .jumbotron {
+     
+      margin-bottom: 70px; } }
+/*  @media (min-width: 992px) {
+    body.home.us-en .jumbotron{
+      
+      margin-bottom: 70px; } }
+ /* @media (min-width: 1200px) {
+    body.home.us-en .jumbotron {
+      margin-top: 35px; } }*/
+
+/* Changed */
+/*@media (min-width: 992px) {
+    body.home.us-en .jumbotron {
+        height: 480px; } }
+@media (min-width: 1124px) {
+    body.home.us-en .jumbotron {
+        height: 500px; } 
+}
+@media (min-width: 1200px) {
+    body.home.us-en .jumbotron {
+        height: 560px;
+       }
+}
+
+@media (min-width: 1400px) {
+    body.home.us-en .jumbotron {
+        height: 600px;
+       }
+}*/
+/* Add */
+/*@media (max-width: 767px) {
+  body.home.us-en .jumbotron .bg{
+    height: 200px; } } 
+   */ 
+ /* LAH*/
+ body.home .btn.btn-underline {
+  text-decoration: underline;
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff; }
+ body.home  .btn.btn-underline:hover {
+    color: #ffffff;
+    text-decoration: underline;
+     }   
+ /* Add */
+/*body.home.us-en .jumbotron .bg,
+body.home.ca .jumbotron .bg {
+  background-image: url(../images/hero/Mobile-Hero-Image@2x.jpg);
+}
+@media (min-width: 768px) {
+  body.home.us-en .jumbotron .bg,
+   body.home.ca .jumbotron .bg {
+      background-image: url(../images/hero/Tablet-Hero-Image@2x.jpg);
+  }
+}
+@media (min-width: 992px) {
+  body.home.ca .jumbotron .bg {
+      background-image: url(../images/hero/Desktop-Hero-Image@2x.jpg);
+  
+  }
+}
+@media (min-width: 1200px) {
+  body.home.ca-en .jumbotron .bg,
+  body.home.ca.fr .jumbotron .bg {
+      background-image: url(../images/hero/hero-image-desktop@2x.jpg);
+  }
+}*/
+/* Change margin top 
+  @media (min-width: 768px) {}
+  @media (min-width: 992px) {
+       body.home.ca.fr .jumbotron h1 {font-size:16px;}
+       body.home.ca.fr .jumbotron .btn.btn-default.btn-pink {
+    font-size: 18px;
+    line-height: 18px;}
+}*/
+
+/* Remove margin top */
+/*@media (min-width: 992px) {
+    body.home.us-en .jumbotron h1,
+    body.home.ca .jumbotron h1 {
+      margin-top: 280px;
+       margin-top: 60px;  } }
+@media (min-width: 1200px) {
+    body.home.us-en .jumbotron h1,
+    body.home.ca .jumbotron h1 {
+        margin-top: 120px; 
+        margin-top: 60px;} }*/
+/* adjust bootstrap grid*/
+/*@media (min-width: 1200px) {  
+body.home .jumbotron__inner.col-lg-offset-4
+    {
+    
+    margin-left: 36.3333333333%;
+}
+body.home .jumbotron__inner.col-lg-8
+    {
+    
+    width: 63.6666666667%;
+    }
+}  */
+/* Change font size */
+ /*body.home.us-en .jumbotron h2.header-large-text .large-text,
+  body.home.ca .jumbotron h2.header-large-text .large-text  
+ {line-height:1;
+ }
+
+/* Add */
+/*@media (min-width: 1200px) {
+    body.home.us-en .jumbotron h2.header-large-text .large-text,
+    body.home.ca .jumbotron h2.header-large-text .large-text{
+      
+        font-size: 52px;
+        line-height: 1; } }*/
+    
+/* Changed */
+/*body.home.us-en .cta-button--wrapper:first-child,
+body.home.ca .cta-button--wrapper:first-child {
+    padding-bottom: 20px; }*/
+
+/* Add */
+/*body.home .jumbotron .hero-badge {
+    width: 281px;
+    position: absolute;
+    top: 130px;
+    right: 0; }
+    @media (min-width: 768px) {
+      body.home .jumbotron .hero-badge {
+        width: 459px;
+        bottom: -105px;
+        top: auto; } }
+    @media (min-width: 992px) {
+      body.home .jumbotron .hero-badge {
+        width: 559px;
+        bottom: -130px; } }
+    @media (min-width: 1200px) {
+      body.home .jumbotron .hero-badge {
+        width: 592px;
+        right: 90px;
+        bottom: -135px; 
+       } }*/
+
+/* Add */
+/*@media (min-width: 1200px) {
+    .home.us-en .btn.btn-default.btn-pink,
+    .home.ca .btn.btn-default.btn-pink {
+        font-size: 22px; } }*/
+ /*--hero fr specific---*/ 
+ /* ---Add 
+body.home.ca.fr {
+  padding-top: 90px;
+}
+@media (min-width: 768px) {
+  body.home.ca.fr {
+    padding-top: 0;
+    margin-top: 100px;
+  }
+}-----*/
+/*@media (min-width: 992px) {
+  body.home.ca.fr {
+    margin-top: 188px;
+  }
+}
+@media (min-width: 1200px) {
+  body.home.ca.fr {
+    margin-top: 155px;
+  }
+}
+@media (min-width: 768px) {
+  body.home.ca.fr .jumbotron h1 {
+    margin-top: 80px;
+  }
+}
+body.home.ca.fr .jumbotron .hero-badge {
+  width: 290px;
+  bottom: 330px;
+}
+body.home.ca.fr .jumbotron .hero-badge.hero-badge-mobile {
+  display: block;
+}
+body.home.ca.fr .jumbotron .hero-badge.hero-badge-desktop {
+  display: none;
+}
+@media (min-width: 768px) {
+  body.home.ca.fr .jumbotron .hero-badge {
+    width: 429px;
+    top: 340px;
+    bottom: auto;
+  }
+  body.home.ca.fr .jumbotron .hero-badge.hero-badge-mobile {
+    display: none;
+  }
+  body.home.ca.fr .jumbotron .hero-badge.hero-badge-desktop {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  body.home.ca.fr .jumbotron .hero-badge {
+    width: 510px;
+    top: 355px;
+  }
+}
+@media (min-width: 1200px) {
+  body.home.ca.fr .jumbotron .hero-badge {
+    top: 490px;
+  }
+}*/
+
+/* Change */
+     
+/*-------home video-------*/  
+ .home.us-en  .watch__header,
+ .home.ca-en  .watch__header {
+ margin-top:4em;
+margin-bottom:90px; }  
+ .home.us-en  .watch__header .bg,
+  .home.ca-en  .watch__header .bg {
+  background: url(../images/KMR7626_Website_Explainer_Video_Thumbnail_FINAL.jpg) 0 0 no-repeat;
+
+  width: 100%;
+  height: 159px;
+  background-size: cover;
+  background-position: center; }
+
+  
+@media (max-width: 420px) {
+ .home.us-en  .watch__header .bg,
+ .home.ca-en  .watch__header .bg  { 
+height:240px;
+
+background-position:left bottom;}
+ }  
+ @media (min-width: 421px) {
+ .home.us-en  .watch__header .bg,
+ .home.ca-en  .watch__header .bg  { 
+height:360px;
+background-position:left bottom;
+}
+ } 
+  @media (min-width: 768px) {
+  .home.us-en  .watch__header,
+  .home.ca-en  .watch__header  { 
+height:420px;
+}
+ .home.us-en  .watch__header .bg,
+ .home.ca-en  .watch__header .bg  { 
+height:420px;
+background-position:left bottom;}
+ } 
+   @media (min-width: 1200px) {
+   .home.us-en  .watch__header,
+   .home.ca-en  .watch__header  { 
+height:520px;
+}
+ .home.us-en  .watch__header .bg,
+ .home.ca-en  .watch__header .bg   { 
+height:520px;
+background-position:left bottom;
+}
+ }
+/*--how kumon works--*/ 
+/* body.works.us-en .jumbotron .bg,
+  body.works.ca .jumbotron .bg {
+  background-image: url("../images/hero/works_header_img_mobile@2x.jpg"); }
+  @media (min-width: 768px) {
+    body.works.us-en .jumbotron .bg,
+    body.works.ca .jumbotron .bg {
+      background-image: url("../images/hero/works_header_img_tablet@2x.jpg"); } }
+  @media (min-width: 992px) {
+    body.works.us-en .jumbotron .bg,
+    body.works.ca .jumbotron .bg {
+      background-image: url("../images/hero/works_header_img_desktop@2x.jpg"); } }
+  @media (max-width: 767px) {
+    body.works.us-en .jumbotron .bg,
+    body.works.ca .jumbotron .bg {
+      height: 222px; } 
+      }
+*/
+
+/*
+body.works.ca .hero-badge {
+  position: absolute;
+  width: 290px;
+  top: auto;
+  bottom: 240px;
+  right: 0; }
+  @media (min-width: 420px) {
+  body.works.ca .hero-badge {
+    bottom: 195px; } }
+@media (min-width: 520px) {
+  body.works.ca .hero-badge {
+    bottom: 190px; } }
+@media (min-width: 520px) {
+  body.works.ca .hero-badge {
+    bottom: 170px; } }
+@media (min-width: 768px) {
+  body.works.ca .hero-badge{
+    width: 306px;
+    bottom: -40px; } }
+@media (min-width: 992px) {
+  body.works.ca .hero-badge {
+    bottom: -55px;
+    width: 480px; } }
+
+.play {
+  z-index: 1;
+}*/
+ /*--faq---*/
+/*  @media (max-width: 767px) {
+  body.faq.us-en .jumbotron .bg,
+  body.faq.ca .jumbotron .bg {
+    height: 222px;
+  }
+}
+
+body.faq.us-en .hero-badge,
+body.faq.ca .hero-badge {
+  position: absolute;
+  width: 292px;
+  top: 125px;
+  right: 0; }*/
+  /*body.faq.ca .hero-badge {
+ 
+  top: 155px;
+ }*/
+/*  @media (min-width: 768px) {
+    body.faq.us-en .hero-badge,
+     body.faq.ca .hero-badge {
+      width: 459px;
+      bottom: -105px;
+      top: auto; } }
+  @media (min-width: 992px) {
+    body.faq.us-en .hero-badge,
+    {
+      width: 592px;
+      bottom: -135px; }
+    body.faq.ca .hero-badge {
+      width: 592px;
+      bottom: -100px; } }
+
+
+ @media (min-width: 768px) {
+    body.faq.us-en .jumbotron
+    body.faq.ca .jumbotron {
+        margin-bottom: 60px;
+    }
+  }
+  body.faq.us-en .jumbotron .bg,
+  body.faq.ca .jumbotron .bg {
+  background-image: url("../images/hero/faq_header_img_mobile@2x.jpg"); }
+  @media (min-width: 768px) {
+    body.faq.us-en .jumbotron .bg,
+    body.faq.ca .jumbotron .bg {
+      background-image: url("../images/hero/faq_header_img_tablet@2x.jpg"); } }
+  @media (min-width: 992px) {
+    body.faq.us-en .jumbotron .bg,
+    body.faq.ca .jumbotron .bg {
+      background-image: url("../images/hero/faq_header_img_desktop@2x.jpg"); } }
+  @media (max-width: 767px) {
+    body.faq.us-en .jumbotron .bg,
+    body.faq.ca .jumbotron .bg {
+      height: 222px; } }*/
+/*---contacts---*/
+/*body.contact.us-en .jumbotron .bg,
+body.contact.ca .jumbotron .bg  {
+  background-image: url("../images/hero/contact_header_img_mobile@2x.jpg"); }
+*/
+/* Add */
+/*@media (min-width: 768px) {
+  body.contact.us-en .jumbotron .bg,
+  body.contact.ca .jumbotron .bg {
+    background-image: url("../images/hero/contact_header_img_tablet@2x.jpg"); } }
+@media (min-width: 992px) {
+  body.contact.us-en .jumbotron .bg,
+  body.contact.ca .jumbotron .bg {
+    background-image: url("../images/hero/contact_header_img_desktop@2x.jpg"); } }
+*/
+/* Add */
+/*body.contact.ca .hero-badge {
+
+  width: 281px;
+  position: absolute;
+  top: 90px;
+  right: 0;
+  z-index: 1; }
+  @media (min-width: 768px) {
+      body.contact.ca .hero-badge {
+      width: 353px;
+      bottom: -60px;
+      top: auto;
+      right: auto;
+      left: 0; } }
+  @media (min-width: 992px) {
+   body.contact.ca .hero-badge {
+      width: 559px;
+      bottom: 0; } }
+  @media (min-width: 1200px) {
+    body.contact.ca .hero-badge {
+      width: 592px;
+      left: 0;
+      bottom: 20px; } }
+
+@media (min-width: 992px) {
+  body.contact.us-en .jumbotron h1,
+  body.contact.ca .jumbotron h1 {
+    margin-top: 170px; } }
+ */   
+/*---
+find a center
+/*faq kumon IT*/
+/*body.find-a-center.us-en .jumbotron .bg,
+body.find-a-center.ca .jumbotron .bg  {
+  background-image: url("../images/hero/Find-a-Center-Mobile-Hero-Image@2x.jpg"); }*/
+
+/* Add */
+/*@media (min-width: 768px) {
+  body.find-a-center.us-en .jumbotron .bg,
+  body.find-a-center.ca .jumbotron .bg  {
+    background-image: url("../images/hero/Find-a-Center-Tablet-Hero-Image@2x.jpg"); } }
+@media (min-width: 992px) {
+  body.find-a-center.us-en .jumbotron .bg,
+  body.find-a-center.ca .jumbotron .bg {
+    background-image: url("../images/hero/Find-a-Center-Desktop-Hero-Image@2x.jpg"); } }
+@media (max-width: 767px) {
+  body.find-a-center.us-en .jumbotron .bg,
+  body.find-a-center.ca .jumbotron .bg {
+    height: 200px; } }*/
+/* Add */
+/*
+body.find-a-center.ca .hero-badge {
+  position: absolute;
+  right: 0;
+  top: 145px;
+  z-index: 1;
+  width: 290px; }
+  @media (min-width: 768px) {
+    body.find-a-center.ca .hero-badge {
+      right: auto;
+      left: 45px;
+      top: 40%;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+      width: 306px; } }
+  @media (min-width: 992px) {
+    body.find-a-center.ca .hero-badge {
+      top: 45%;
+      width: 480px; } }
+*/
+/* Remove from main2.css ---
+@media (min-width: 768px) {
+  body.find-a-center.us-en .head-inner {
+      padding: 1.2em 2.3em 0.5em;
+  }
+}
+@media (min-width: 1200px) {
+  body.find-a-center.us-en .head-inner {
+    padding: 1.2em 2.3em;
+  }
+}
+----*/
+/* Replace the above with this: */
+@media (min-width: 768px) {
+  body.find-a-center.us-en .head-inner,
+  body.find-a-center.ca .head-inner {
+      padding: 35px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  body.find-a-center.us-en .head-inner,
+  body.find-a-center.ca .head-inner {
+      padding: 35px 42px;
+  }
+}
+
+/* Remove from scheduler-site.css ---
+@media (min-width: 768px) {
+  body.find-a-center.us-en div.head h1 {
+      margin-top: 1.2em;
+      margin-bottom: 0.6em;
+  }
+}
+--*/
+/* Remove from main2.css ---
+@media (min-width: 768px) {
+  body.find-a-center.us-en .jumbotron {
+      margin-bottom: -220px;
+  }
+}
+--*/
+/* Replace the above with this: ----
+@media (min-width: 768px) {
+  body.find-a-center.us-en div.head-wrapper {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -20%);
+  }
+}
+@media (min-width: 992px) {
+  body.find-a-center.us-en div.head-wrapper {
+      -webkit-transform: translate(-50%, -40%);
+      -ms-transform: translate(-50%, -40%);
+      transform: translate(-50%, -40%);
+  }
+}
+--*/
+/* Add */
+body.find-a-center.us-en div.head .larger,
+body.find-a-center.ca div.head .larger {
+  font-size: 16px;
+  line-height: 22px;
+  color: #6E6E6E;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  body.find-a-center.us-en div.head .larger,
+  body.find-a-center.ca div.head .larger {
+      font-size: 19px;
+      line-height: 27px;
+  }
+}
+
+/*-----------------
+FR updated 0818-2020
+------------------*/
+/*adjust bootstrap grid- kumon IT*/
+/*@media (min-width: 768px){
+ body.home.ca.fr .jumbotron h2.header-large-text {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.2px;}
+}
+@media (min-width: 992px)
+{
+body.home.ca.fr .jumbotron__inner {
+    padding-left:0; 
+    padding-right:0;}
+body.home.ca.fr .jumbotron .col-md-offset-5, 
+body.home.ca.fr .cta-buttons.col-md-offset-6 {
+    margin-left:37%;}
+body.home.ca.fr .jumbotron .col-md-7,
+body.home.ca.fr .cta-buttons.col-md-6 {
+    width: 62%;}
+    body.home.ca.fr .jumbotron h2.header-large-text {
+    font-size: 32px;
+    line-height: 36px;}
+}
+@media (min-width: 1200px) {
+    body.home.ca.fr .jumbotron h2.header-large-text {
+        font-size: 40px;
+        line-height: 48px;
+  }
+} 
+
+/*hero desktop mobile switch*/
+/*body.home.ca.fr .jumbotron .hero-badge.hero-badge-mobile {
+  display: block;
+}
+body.home.ca.fr .jumbotron .hero-badge.hero-badge-desktop {
+  display: none;
+}
+@media (min-width: 768px) {
+ 
+  body.ca.fr .jumbotron .hero-badge.hero-badge-mobile {
+    display: none;
+  }
+  body.ca.fr .jumbotron .hero-badge.hero-badge-desktop {
+    display: block;
+  }
+}
+/*end  IT edit*/
+/*body.home.ca.fr .jumbotron .hero-badge {
+    width: 290px;
+    bottom: 320px;
+    /*IT update*/ 
+ /*   right: 30%;
+   left: 13%;
+    top: 145px;}
+    
+    body.home.ca.fr .jumbotron .hero-badge.hero-badge-mobile {
+      display: block; }
+    body.home.ca.fr .jumbotron .hero-badge.hero-badge-desktop {
+      display: none; }
+       @media (min-width: 420px) {
+   body.home.ca.fr .jumbotron .hero-badge {
+      left:auto;right:0; }
+       }
+    @media (min-width: 768px) {
+      body.home.ca.fr .jumbotron .hero-badge {
+        width: 429px;
+        top: -5px;
+        bottom: auto;
+        /*IT update*/
+/*        top: 82%;
+     left: auto;
+    right: 0;
+         }
+        body.home.ca.fr .jumbotron .hero-badge.hero-badge-mobile {
+          display: none; }
+        body.home.ca.fr .jumbotron .hero-badge.hero-badge-desktop {
+          display: block; } }
+    @media (min-width: 992px) {
+      body.home.ca.fr .jumbotron .hero-badge {
+        width: 510px;
+         } }
+/* Changed */
+body.contact.ca.fr .jumbotron .hero-badge {
+  top: 125px;
+    left: 2%; }
+body.contact.ca.fr .jumbotron__header {margin-top:70px;}
+@media (min-width: 480px) {
+  body.contact.ca.fr .jumbotron .hero-badge {
+    top: 165px;
+    top: 125px;
+    left: 5%; } }
+@media (min-width: 768px) {
+  body.contact.ca.fr .jumbotron .hero-badge {
+    width: 306px;
+    top: 65px; 
+    top:325px;/*IT*/
+    left:12%;
+    }
+  body.contact.ca.fr .jumbotron h2 {
+      font-size:25px; 
+      line-height:1.3em;
+      text-align: left;
+      padding-left:50px;}
+ }
+@media (min-width: 992px) {
+  body.contact.ca.fr .jumbotron .hero-badge {
+    width: 480px;
+    top: 425px; } 
+  body.contact.ca.fr .jumbotron__header {
+    margin-top: 140px;}
+  body.contact.ca.fr .jumbotron h2  {
+      font-size:28px;
+      text-align: center;
+      padding-left:15px;}
+}  
+@media (min-width: 1200px) {
+  body.contact.ca.fr .jumbotron .hero-badge {
+    top: 425px; } }
+/*faq kumon IT*/
+
+/* Changed */
+body.faq.ca.fr .jumbotron .hero-badge {
+  width: 290px;
+  top: auto;
+  bottom: 165px;
+  right: 0; }
+@media (min-width: 420px) {
+  body.faq.ca.fr .jumbotron .hero-badge {
+    bottom: 115px;
+  }
+}
+@media (min-width: 480px) {
+  body.faq.ca.fr .jumbotron .hero-badge {
+    bottom: 115px;
+    right: 0; } }
+@media (min-width: 768px) {
+  body.faq.ca.fr .jumbotron .hero-badge {
+    width: 306px;
+    bottom: -45px; } }
+@media (min-width: 992px) {
+  body.faq.ca.fr .jumbotron .hero-badge {
+    width: 480px;
+    bottom: auto;
+    top:-120px;/*kumon*/ }
+  body.faq.ca.fr .jumbotron h2 {
+    margin-top: 165px; } 
+}
+/*find-a-center kumon IT*/
+body.find-a-center.ca.fr .head-inner {
+    padding: 55px 25px 35px;
+}
+ 
+/* Changed */
+body.works.ca.fr .jumbotron .hero-badge {
+  bottom: 230px;
+  top: auto;
+  right: 0; }
+body.works.ca.fr .jumbotron .jumbotron__header {
+  margin-top: 60px;}
+@media (min-width: 420px) {
+  body.works.ca.fr .jumbotron .hero-badge {
+    bottom: 205px; } }
+@media (min-width: 480px) {
+  body.works.ca.fr .jumbotron .hero-badge {
+    bottom: 160px; } }
+@media (min-width: 520px) {
+  body.works.ca.fr .jumbotron .hero-badge {
+    bottom: 160px; } }
+
+@media (min-width: 768px) {
+  body.works.ca.fr .jumbotron .hero-badge {
+    width: 306px;
+    bottom: -40px; }
+  body.works.ca.fr .jumbotron .jumbotron__header {
+    margin-top: 135px;}
+  body.works.ca.fr .jumbotron h2 {
+    font-size:22px;
+    line-height:1.3em; } }
+@media (min-width: 992px) {
+  body.works.ca.fr .jumbotron .hero-badge {
+    width: 480px;
+    top: -120px;
+    bottom: auto; } 
+  body.works.ca.fr .jumbotron .jumbotron__header {
+    margin-top: 165px; }
+  body.works.ca.fr .jumbotron h2{
+    font-size:28px; } }
+      
+      
+/**-----------------
+math and Reading
+--------------*/
+/* Add */
+@media (min-width: 768px) {
+    body.math .jumbotron {
+      text-align: left; }
+       }
+
+/* Change */
+body.math .jumbotron .bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_640@1x.jpg");
+    background-image: -webkit-image-set(
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_640@1x.webp) 1x,
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_640@1x.webp) 2x);
+        background-image: image-set(
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_640@1x.webp) 1x,
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_640@1x.webp) 2x); 
+    height:250px; }
+       @media (min-width: 580px) {
+      body.math .jumbotron .bg {
+      height:280px;}
+       }
+    @media (min-width: 768px) {
+       body.math .jumbotron{ height:430px;}
+      body.math .jumbotron .bg {
+        background-image: url("/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_1920@x1.jpg"); 
+        background-image: -webkit-image-set(
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_1920@x1.webp) 1x,
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_1920@x2.webp) 2x);
+        background-image: image-set(
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_1920@x1.webp) 1x,
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_1920@x2.webp) 2x); 
+        height:100%; }
+    }
+    @media (min-width: 992px) {
+      body.math .jumbotron{ height:570px;}
+      body.math .jumbotron .bg {
+        background-image: url("/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_1920@x1.jpg"); 
+        background-image: -webkit-image-set(
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_1920@x1.webp) 1x,
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_1920@x2.webp) 2x);
+        background-image: image-set(
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_1920@x1.webp) 1x,
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Math_1920@x2.webp) 2x);
+      } 
+      }
+
+/* Add */
+/*body.math .jumbotron .image-container {
+    position: relative; }
+body.math .jumbotron .hero-badge {
+    width: 290px;
+    position: absolute;
+    bottom: 140px;
+    right: 0; }
+body.math.fr .jumbotron .hero-badge {
+    bottom: 160px;
+    }
+body.math .jumbotron .hero-badge.hero-badge-mobile {
+    display: block; }
+body.math .jumbotron .hero-badge.hero-badge-desktop {
+    display: none; }
+    @media (min-width: 420px) {
+    body.math .jumbotron .hero-badge {
+    bottom: 120px;
+    }
+    body.math.fr .jumbotron .hero-badge {
+    bottom: 140px;
+    }
+  }
+@media (min-width: 520px) {
+    body.math .jumbotron .hero-badge {
+    bottom: 100px;
+    } 
+    body.math.fr .jumbotron .hero-badge {
+        bottom: 140px;
+    }
+    }
+@media (min-width: 768px) {
+    body.math .jumbotron .hero-badge {
+    width: 459px;
+    bottom: auto;
+    top: 20px;
+   }
+    body.math .jumbotron .hero-badge.hero-badge-mobile {
+        display: none; }
+    body.math .jumbotron .hero-badge.hero-badge-desktop {
+        display: block; } 
+    body.math.fr .jumbotron .hero-badge {
+        top: 30px;}
+    body.math.fr h2.header {
+        margin-top: 30px;}
+   }        
+@media (min-width: 992px) {
+    body.math .jumbotron .hero-badge {
+        width: 512px;
+        top: 140px;
+    } 
+    body.math.fr .jumbotron .hero-badge {
+        width: 512px;
+        top: 120px;
+    }
+    }
+@media (min-width: 1200px) {
+    body.math .jumbotron .hero-badge {
+    width: 592px;
+    right: 0;
+    top: 120px;
+     } }
+
+/* Change */
+/*body.math .jumbotron__wrapper {
+    padding: 0; }
+    @media (min-width: 768px) {
+        body.math .jumbotron__wrapper {
+        padding: 0 45px; } }
+    @media (min-width: 992px) {
+        body.math .jumbotron__wrapper {
+        padding: 0; } }
+
+/* Change */
+/*body.math h2 {
+    text-shadow: none;
+   margin-top: 90px; }
+   body.math h2.header {
+    text-shadow: none;
+   margin-top: 20px; }
+    @media (min-width: 768px) {
+      body.math h2  {
+        padding: 0;
+        margin-top: 90px;
+        font-size: 28px;
+        line-height: 32px; }
+    body.math h2.header  {
+        padding: 0;
+        margin-top: 20px;
+        } }
+    @media (min-width: 992px) {
+      body.math h2 {
+      /*  margin-top: 95px;*/
+       /* font-size: 36px;
+        line-height: 40px; }
+    body.math h2.header {
+        margin-top:30px;}
+     }
+}*/
+/* Add */
+body.math .cta-buttons div {
+    padding: 0; }
+    
+/* READING */
+/* Add */
+@media (min-width: 768px) {
+    body.reading .jumbotron {
+      text-align: left; } }
+
+/*body.reading .jumbotron .image-container {
+    position: relative; }*/
+
+/* Change */
+body.reading .jumbotron .bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/assets/images/hero/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x2.jpg"); 
+    background-image: -webkit-image-set(
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x1.webp) 1x,
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x2.webp) 2x);
+        background-image: image-set(
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x1.webp) 1x,
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x2.webp) 2x);
+  }
+    @media (min-width: 768px) {
+        body.reading .jumbotron .bg {
+        background-image: url("/assets/images/hero/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x2.jpg"); 
+        background-image: -webkit-image-set(
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x1.webp) 1x,
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x2.webp) 2x);
+        background-image: image-set(
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x1.webp) 1x,
+        url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x2.webp) 2x);
+      }   
+      }
+    @media (min-width: 992px) {
+        body.reading .jumbotron .bg {
+          background-image: url("/assets/images/hero/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x2.jpg"); 
+          background-image: -webkit-image-set(
+          url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x1.webp) 1x,
+          url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x2.webp) 2x);
+          background-image: image-set(
+          url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x1.webp) 1x,
+          url(/assets/images/hero/2022-Q3/KMN11245_Q32022_WebBanner_Hero_Reading_1920@x2.webp) 2x); 
+      
+      } }
+/* Add */
+/*body.reading .jumbotron .hero-badge {
+        width: 290px;
+        position: absolute;
+        bottom: 200px;
+        bottom:160px;
+        right: 0; }
+    body.reading.fr .jumbotron .hero-badge {
+      bottom:180px;
+    }
+    body.reading .jumbotron .hero-badge.hero-badge-mobile {
+        display: block; }
+    body.reading .jumbotron .hero-badge.hero-badge-desktop {
+        display: none; }
+    @media (min-width: 420px) {
+        body.reading .jumbotron .hero-badge {
+        bottom: 126px; }
+   /*   body.reading.fr .jumbotron .hero-badge {
+        bottom: 156px; }*/
+         }
+ /* @media (min-width: 768px) {
+        body.reading .jumbotron .hero-badge {
+        width: 459px;
+        bottom: auto;
+        top: 10px;
+        top:-10px; }
+        body.reading .jumbotron .hero-badge.hero-badge-mobile {
+            display: none; }
+        body.reading .jumbotron .hero-badge.hero-badge-desktop {
+            display: block; } }
+    @media (min-width: 992px) {
+        body.reading .jumbotron .hero-badge {
+        width: 559px;
+        top: 70px; }
+         body.reading.fr .jumbotron .hero-badge {
+        
+        top: 50px; } }
+    @media (min-width: 1200px) {
+        body.reading .jumbotron .hero-badge {
+        width: 592px;
+        right: 20px;
+        top: 90px; } }
+@media (min-width: 768px) {
+    body.reading .jumbotron__wrapper {
+        padding-right: 0; } }
+*/
+/* Change */
+/*body.reading .jumbotron__header {
+    text-shadow: none;
+    margin-top: 90px;
+    line-height: 27px; }
+    @media (min-width: 768px) {
+      body.reading .jumbotron__header {
+        padding: 0;
+        margin-top: 80px;
+        font-size: 28px;
+        line-height: 32px; } }
+    @media (min-width: 992px) {
+      body.reading .jumbotron__header {
+        margin-top: 95px;
+        font-size: 36px;
+        line-height: 40px; } }
+ */
+/*--addd by IT--*/
+       
